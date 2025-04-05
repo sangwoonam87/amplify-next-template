@@ -1,11 +1,14 @@
-"use client";
 import "./../app/app.css";
-import Todo from "./components/ToDo";
+import ToDo from "./components/ToDo";
+import LocationFinderClient from "./components/LocationFinderClient";
+import LocationFinderServer from "./components/LocationFinderServer";
 export default function App() {
 
   return (
     <main>
-      <Todo/>
+      <LocationFinderClient/>
+      <LocationFinderServer/>
+      <ToDo/>
     </main>
   );
 }
